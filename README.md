@@ -1,29 +1,6 @@
 # TeslaGuide 🚗⚡
 
-Site Jekyll pour GitHub Pages — guide Tesla en français avec lien de parrainage.
 
-## 🚀 Déploiement sur GitHub Pages
-
-### 1. Créer le dépôt
-1. Allez sur [github.com](https://github.com) → **New repository**
-2. Nommez-le `votre-pseudo.github.io` (ex: `michael618693.github.io`)
-3. Cochez **"Public"**
-4. Cliquez **Create repository**
-
-### 2. Uploader les fichiers
-Option simple (sans Git) :
-1. Ouvrez votre dépôt sur GitHub
-2. Cliquez **"uploading an existing file"**
-3. Glissez-déposez **tous les fichiers et dossiers** de ce ZIP
-4. Cliquez **Commit changes**
-
-### 3. Activer GitHub Pages
-1. Allez dans **Settings** → **Pages**
-2. Source : **Deploy from a branch**
-3. Branch : **main** → **/ (root)**
-4. Cliquez **Save**
-
-Votre site sera en ligne à `https://votre-pseudo.github.io` en 2-3 minutes ✅
 
 ---
 
