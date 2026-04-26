@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/" class="nav-logo">TESLA<span>GUIDE</span></a>
+    <div class="nav-links">
+      <a href="/">Accueil</a>
+      <a href="/blog.html">Articles</a>
+      <a href="/#parrainage" class="nav-cta">Parrainage</a>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-logo">TESLA<span>GUIDE</span></p>
+      <p class="footer-sub">Un site indépendant, non affilié à Tesla Inc.</p>
+      <nav class="footer-nav">
+        <a href="/">Accueil</a>
+        <a href="/blog.html">Articles</a>
+        <a href="/#parrainage">Parrainage</a>
+      </nav>
+      <p class="footer-copy">© {{ 'now' | date: "%Y" }} TeslaGuide</p>
+    </div>
+  </footer>
+
+</body>
+</html>
