@@ -1,0 +1,24 @@
+---
+layout: default
+title: Articles — TeslaGuide
+---
+
+<div class="blog-header">
+  <p class="section-eyebrow">Base de connaissance</p>
+  <h1 class="section-title">Tous les articles</h1>
+  <p class="section-sub" style="margin: 0 auto;">Guides, comparatifs et explications sur l'univers Tesla.</p>
+</div>
+
+<div class="blog-list">
+  <div class="posts-grid">
+    {% for post in site.posts %}
+    <a href="{{ post.url }}" class="post-card">
+      <span class="post-tag">{{ post.category | default: "Guide" }}</span>
+      <h2 class="post-title">{{ post.title }}</h2>
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 130 }}</p>
+      <span class="post-date">{{ post.date | date: "%d %B %Y" }}</span>
+      <span class="post-arrow">Lire →</span>
+    </a>
+    {% endfor %}
+  </div>
+</div>
