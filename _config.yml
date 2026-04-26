@@ -1,0 +1,22 @@
+title: TeslaGuide
+description: Le guide Tesla en français — parrainage, modèles, conseils
+url: ""
+baseurl: ""
+lang: fr
+
+author: TeslaGuide
+referral_link: "https://ts.la/michael618693"
+
+# Build
+markdown: kramdown
+permalink: /blog/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
