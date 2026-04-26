@@ -1,19 +1,19 @@
 /* ==============================
    TeslaGuide — Main Stylesheet
-   Dark luxury tech aesthetic
+   Pastel soft aesthetic
    ============================== */
 
 :root {
-  --black:    #080b0f;
-  --dark:     #0d1117;
-  --card:     #111820;
-  --border:   #1e2d3d;
-  --blue:     #2f7cf6;
-  --blue-dim: #1a4a9e;
-  --blue-glow:#2f7cf640;
-  --white:    #f0f4f8;
-  --muted:    #6b8499;
-  --accent:   #5ba4ff;
+  --black:    #f5f0f8;
+  --dark:     #ede6f5;
+  --card:     #faf7fd;
+  --border:   #ddd5ec;
+  --blue:     #8b6bbf;
+  --blue-dim: #b99de0;
+  --blue-glow:#8b6bbf30;
+  --white:    #2d2040;
+  --muted:    #8a7aa0;
+  --accent:   #c084fc;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -94,8 +94,8 @@ body {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 70% 50% at 50% 60%, rgba(47,124,246,0.15) 0%, transparent 70%),
-    radial-gradient(ellipse 40% 30% at 20% 80%, rgba(47,124,246,0.07) 0%, transparent 60%);
+    radial-gradient(ellipse 70% 50% at 50% 60%, rgba(192,132,252,0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 30% at 20% 80%, rgba(139,107,191,0.1) 0%, transparent 60%);
   pointer-events: none;
 }
 
