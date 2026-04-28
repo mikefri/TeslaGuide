@@ -65,5 +65,8 @@ Pour une Tesla Model 3 qui consomme environ **18 kWh/100 km** sur autoroute à 1
 **En résumé :** Ne cherchez pas à charger à 100% à chaque fois. Faites confiance au planificateur Tesla, il connaît les dénivelés (notamment pour l'A75 vers le Sud) et sait exactement combien d'énergie il vous faut pour atteindre le prochain arrêt ou votre destination finale.
 
 ---
-
+### Pour approfondir
+* [Comparatif complet des modèles]({{ site.baseurl }}/comparatif-modeles-tesla/) : Trouvez la Tesla qui vous correspond.
+* [Tesla Model 3 Highland]({{ site.baseurl }}/model-3-highland-propulsion/) : Retour d'expérience sur un trajet longue distance.
+---
 *Vous envisagez de passer à l'électrique ou de commander votre prochaine Tesla ? N'oubliez pas d'utiliser [mon lien de parrainage](https://ts.la/michael618693) pour soutenir le site et bénéficier des avantages exclusifs Tesla du moment.*
