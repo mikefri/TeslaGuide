@@ -2,15 +2,13 @@
 layout: default
 title: TeslaGuide — Le guide Tesla en français
 ---
-
-<!-- HERO -->
 <section class="hero">
   <p class="hero-eyebrow">⚡ Le guide Tesla en français</p>
   <h1>Passez à<br><em>l'électrique</em><br>en toute confiance</h1>
   <p class="hero-sub">Guides, comparatifs, conseils et un lien de parrainage pour économiser sur votre prochaine Tesla.</p>
   <div class="hero-actions">
-    <a href="#parrainage" class="btn-primary">Obtenir le parrainage</a>
-    <a href="/blog.html" class="btn-secondary">Lire les articles</a>
+    <a href="{{ '/' | relative_url }}#parrainage" class="btn-primary">Obtenir le parrainage</a>
+    <a href="{{ '/blog.html' | relative_url }}" class="btn-secondary">Lire les articles</a>
   </div>
   <div class="hero-scroll">
     <span>Scroll</span>
@@ -18,7 +16,6 @@ title: TeslaGuide — Le guide Tesla en français
   </div>
 </section>
 
-<!-- STATS -->
 <div class="stats-band">
   <div class="stat-item">
     <span class="stat-num">4</span>
@@ -38,12 +35,10 @@ title: TeslaGuide — Le guide Tesla en français
   </div>
 </div>
 
-<!-- ARTICLES RÉCENTS -->
 <section class="section">
   <p class="section-eyebrow">Articles récents</p>
   <h2 class="section-title">Tout savoir sur<br>les Tesla</h2>
   <p class="section-sub">Des guides clairs pour comprendre les modèles, la recharge, les coûts et bien plus.</p>
-
   <div class="posts-grid">
     {% for post in site.posts limit:6 %}
     <a href="{{ post.url | relative_url }}" class="post-card">
@@ -55,13 +50,11 @@ title: TeslaGuide — Le guide Tesla en français
     </a>
     {% endfor %}
   </div>
-
   <div style="text-align:center; margin-top: 3rem;">
-    <a href="/blog.html" class="btn-secondary">Voir tous les articles</a>
+    <a href="{{ '/blog.html' | relative_url }}" class="btn-secondary">Voir tous les articles</a>
   </div>
 </section>
 
-<!-- PARRAINAGE -->
 <section class="parrainage-section" id="parrainage">
   <div class="parrainage-inner">
     <div>
@@ -69,26 +62,14 @@ title: TeslaGuide — Le guide Tesla en français
       <h2 class="parrainage-title">Commandez une Tesla et économisez dès aujourd'hui</h2>
       <p class="parrainage-desc">En utilisant mon lien de parrainage, vous bénéficiez d'avantages exclusifs sur votre commande, et moi aussi — tout le monde gagne !</p>
       <ul class="parrainage-perks">
-        <li>
-          <div class="perk-icon">⚡</div>
-          Kilomètres Supercharger offerts dès la livraison
-        </li>
-        <li>
-          <div class="perk-icon">💰</div>
-          Réduction sur les accessoires Tesla Shop
-        </li>
-        <li>
-          <div class="perk-icon">🎁</div>
-          Avantages cumulables selon les offres en cours
-        </li>
-        <li>
-          <div class="perk-icon">🚗</div>
-          Valable sur tous les modèles (3, Y, S, X)
-        </li>
+        <li><div class="perk-icon"></div>Kilomètres Supercharger offerts dès la livraison</li>
+        <li><div class="perk-icon"></div>Réduction sur les accessoires Tesla Shop</li>
+        <li><div class="perk-icon"></div>Avantages cumulables selon les offres en cours</li>
+        <li><div class="perk-icon"></div>Valable sur tous les modèles (3, Y, S, X)</li>
       </ul>
     </div>
     <div class="parrainage-card">
-      <p style="font-family:'Orbitron',sans-serif; font-size:0.65rem; letter-spacing:0.2em; color:var(--muted); text-transform:uppercase;">Mon lien de parrainage</p>
+      <p style="font-size:0.65rem; letter-spacing:0.2em; color:var(--grey); text-transform:uppercase;">Mon lien de parrainage</p>
       <code class="parrainage-link">https://ts.la/michael618693</code>
       <a href="https://ts.la/michael618693" target="_blank" rel="noopener" class="btn-primary" style="width:100%; display:block; text-align:center;">
         Utiliser ce lien →
