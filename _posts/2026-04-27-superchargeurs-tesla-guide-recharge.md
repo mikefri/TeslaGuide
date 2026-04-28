@@ -4,7 +4,7 @@ title: "Recharge Tesla : Ne perdez plus une minute aux Superchargeurs"
 description: "Tout savoir sur les Superchargeurs : fonctionnement, préconditionnement, courbes de charge, coûts et astuces pour optimiser vos longs trajets en 2026."
 permalink: /recharge-tesla/
 date: 2026-04-27
-category: Guides Pratiques
+category: Recharge
 author: Michael
 image: "/assets/css/images/supercharger-guide.png"
 excerpt: "Le réseau de Superchargeurs est l'atout numéro un de Tesla. Découvrez comment dompter la recharge rapide, optimiser vos coûts et pourquoi le 10-80% est votre meilleur allié."
