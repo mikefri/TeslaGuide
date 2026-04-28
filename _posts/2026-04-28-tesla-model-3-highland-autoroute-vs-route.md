@@ -58,5 +58,6 @@ La Tesla Model 3 Highland Propulsion est une voiture à deux facettes.
 ### Ces articles pourraient vous intéresser
 * [Recharge Tesla : guide pratique]({{ site.baseurl }}/recharge-tesla/) : Optimisez vos temps de pause.
 * [Comparatif des modèles Tesla]({{ site.baseurl }}/comparatif-modeles-tesla/) : La référence pour bien choisir.
+* [Motorisations Tesla expliquées]({{ site.baseurl }}/motorisations-tesla/) : Comprendre la Propulsion (RWD).
 ---
 *Quelle que soit la route que vous choisissez, n'oubliez pas d'utiliser [mon lien de parrainage](https://ts.la/michael618693) lors de votre prochaine commande ou pour vos futurs accessoires/accessions à l'écosystème Tesla pour bénéficier des avantages en vigueur !*
