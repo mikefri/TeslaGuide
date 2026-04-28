@@ -11,6 +11,8 @@ excerpt: "Propulsion, Dual Motor, Performance, Plaid... Tesla propose plusieurs 
 
 Quand on configure une Tesla, on tombe rapidement sur des termes techniques comme **Dual Motor**, **Performance** ou **Plaid**. Derrière ces appellations se cachent des différences majeures en matière de traction, de puissance et d'efficacité. Qu'est-ce que cela signifie concrètement pour votre conduite quotidienne ? Voici le guide complet pour vous y retrouver.
 
+Derrière ces appellations se cachent des différences majeures. Avant d'approfondir ces détails techniques, assurez-vous d'avoir bien choisi le gabarit qui vous convient dans notre [comparatif des modèles Tesla 2026](/comparatif-modeles-tesla/).
+
 ## Pourquoi Tesla propose plusieurs motorisations ?
 
 Contrairement aux constructeurs thermiques traditionnels, Tesla fait varier le nombre de moteurs électriques et leur calibration logicielle pour segmenter sa gamme.
@@ -87,6 +89,8 @@ La motorisation **Plaid** est le porte-étendard de la technologie Tesla, réser
 - **Longs trajets / famille** → **Grande Autonomie**. C'est le couteau suisse de la gamme : vous ne sacrifiez ni l'autonomie ni la sécurité.
 - **Conduite sportive** → **Performance**. Si vous aimez le châssis affûté et les départs arrêtés, l'écart de prix se justifie par le plaisir procuré.
 - **Passion pure** → **Plaid**. Une démonstration technologique qui transforme chaque trajet en expérience.
+
+Si certains acronymes comme RWD ou AWD vous semblent encore flous, n'hésitez pas à jeter un œil à notre [lexique indispensable du Teslaiste](/Le-lexique-indispensable-du-Teslaiste-en-2026/).
 
 > **Note importante** : Tesla fait régulièrement évoluer ses prix, ses autonomies (homologation WLTP) et ses équipements de série. Ces informations sont données à titre indicatif. Avant tout achat, **consultez impérativement le configurateur officiel sur le site de Tesla** pour obtenir les données précises pour votre marché.
 
