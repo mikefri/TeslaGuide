@@ -1883,3 +1883,21 @@ body {
   .stat-item:last-child { border-bottom: none; }
   .nav-links a:not(.nav-cta) { display: none; }
 }
+.post-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 220px;
+}
+.post-card-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.post-card-image {
+  background-size: cover;
+  background-position: center;
+}
+.post-card-image--empty {
+  background: var(--card);
+}
