@@ -2,6 +2,7 @@
 layout: post
 title: "Recharge à domicile pour Tesla : tout ce qu'il faut savoir"
 description: "Prise classique, Wallbox ou installation électrique : découvrez comment recharger votre Tesla chez vous efficacement et en toute sécurité, selon mon expérience personnelle."
+permalink: /Recharge-a-domicile/
 date: 2026-05-01
 category: "Recharge"
 author: "Michael"
