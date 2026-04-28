@@ -2,7 +2,7 @@
 layout: post
 title: "Le lexique indispensable du Teslaiste en 2026"
 description: "RWD, Supercharger, OTA, FSD... Ne soyez plus perdu dans le jargon Tesla. Voici le glossaire complet pour comprendre votre véhicule et l'écosystème de la marque."
-date: 2026-04-28
+date: 2026-04-26
 category: Guides Pratiques
 author: Michael
 image: "/assets/css/images/glossaire-tesla.png"
