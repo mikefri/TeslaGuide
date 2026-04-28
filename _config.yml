@@ -20,3 +20,20 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Infos SEO globales
+title: "TeslaGuide — Le guide Tesla en français"
+description: "Guides, comparatifs et conseils pour acheter et utiliser une Tesla en France. Modèles, recharge, coûts, parrainage."
+url: "https://mikefri.github.io"
+baseurl: "/TeslaGuide"
+lang: fr
+author:
+  name: "Michael"
+twitter:
+  username: votre_pseudo  # si vous en avez un
+logo: /assets/img/logo.png
