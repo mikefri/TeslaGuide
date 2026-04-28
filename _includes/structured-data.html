@@ -1,0 +1,34 @@
+{% if page.layout == "post" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TeslaGuide",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
+{% endif %}
+
+{% if page.url == "/" or page.url == "/index.html" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "TeslaGuide",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "description": "{{ site.description }}",
+  "inLanguage": "fr-FR"
+}
+</script>
+{% endif %}
