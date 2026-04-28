@@ -66,5 +66,5 @@ C'est ici que Tesla se démarque vraiment de la concurrence.
 ### À lire également
 * [Guide de la recharge]({{ site.baseurl }}/recharge-tesla/) : Maîtrisez les Superchargeurs sur le bout des doigts.
 * [Comprendre les motorisations]({{ site.baseurl }}/motorisations-tesla/) : Différences entre RWD, AWD et Plaid.
----
+
 *Vous souhaitez passer commande ? Pensez à utiliser [mon lien de parrainage](https://ts.la/michael618693) lors de la finalisation pour bénéficier des avantages exclusifs en vigueur au moment de votre livraison.*
