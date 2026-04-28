@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Recharge Tesla : Ne perdez plus une minute aux Superchargeurs"
+permalink: /superchargeurs-tesla/
 description: "Tout savoir sur les Superchargeurs : fonctionnement, préconditionnement, courbes de charge, coûts et astuces pour optimiser vos longs trajets en 2026."
 date: 2026-04-27
 category: Guides Pratiques
