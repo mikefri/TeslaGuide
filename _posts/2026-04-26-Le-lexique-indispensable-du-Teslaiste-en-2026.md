@@ -63,4 +63,8 @@ C'est ici que Tesla se démarque vraiment de la concurrence.
 **Le conseil de l'expert :** Ne vous inquiétez pas si vous ne retenez pas tout immédiatement. L'interface de Tesla est conçue pour être intuitive. Le plus important à retenir au début est la différence entre **kW** (vitesse de charge) et **kWh** (capacité de batterie), car cela vous aidera à planifier vos trajets plus sereinement.
 
 ---
+### À lire également
+* [Guide de la recharge]({{ site.baseurl }}/recharge-tesla/) : Maîtrisez les Superchargeurs sur le bout des doigts.
+* [Comprendre les motorisations]({{ site.baseurl }}/motorisations-tesla/) : Différences entre RWD, AWD et Plaid.
+---
 *Vous souhaitez passer commande ? Pensez à utiliser [mon lien de parrainage](https://ts.la/michael618693) lors de la finalisation pour bénéficier des avantages exclusifs en vigueur au moment de votre livraison.*
