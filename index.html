@@ -51,7 +51,7 @@ title: TeslaGuide — Le guide Tesla en français
         <span class="post-arrow">Lire →</span>
       </div>
       {% if post.image %}
-      <div class="post-card-image" style="background-image: url('{{ post.image | prepend: site.baseurl }}')"></div>
+      <div class="post-card-image" style="background-image: url('{{ post.image | relative_url }}')"></div>
       {% else %}
       <div class="post-card-image"></div>
       {% endif %}
