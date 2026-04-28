@@ -63,10 +63,10 @@ C'est ici que Tesla se démarque vraiment de la concurrence.
 ## Pour aller plus loin
 Vous avez compris les termes ? Appliquez vos connaissances avec nos guides pratiques :
 
-* **Choisir votre véhicule :** [Comparatif Model 3, Y, S et X](/comparatif-modeles-tesla/)
-* **Comprendre la technique :** [Motorisations : RWD, AWD et Plaid](/motorisations-tesla/)
-* **Optimiser vos trajets :** [Guide complet des Superchargeurs](/superchargeurs-tesla-guide-recharge/)
-* **Retours d'expérience :** [Tesla Model 3 : Autoroute vs Route](/tesla-model-3-highland-autoroute-vs-route/)
+* **Choisir votre véhicule :** [Comparatif Model 3, Y, S et X](comparatif-modeles-tesla/)
+* **Comprendre la technique :** [Motorisations : RWD, AWD et Plaid](motorisations-tesla/)
+* **Optimiser vos trajets :** [Guide complet des Superchargeurs](superchargeurs-tesla-guide-recharge/)
+* **Retours d'expérience :** [Tesla Model 3 : Autoroute vs Route](tesla-model-3-highland-autoroute-vs-route/)
 
 ---
 
