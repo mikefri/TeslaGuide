@@ -48,7 +48,7 @@ Si vous avez des enfants ou un besoin d'espace régulier, le Model Y est le choi
 
 ---
 
-"Le choix du modèle n'est que la première étape. Pour comprendre ce qui se cache sous le capot (RWD, AWD, Plaid), consultez notre guide complet sur toutes les motorisations Tesla expliquées."
+> Le choix du modèle n'est que la première étape. Pour comprendre ce qui se cache sous le capot (RWD, AWD, Plaid), consultez notre guide complet sur [toutes les motorisations Tesla expliquées](/motorisations-tesla/).
 
 ## Model S — Le porte-étendard technologique
 
