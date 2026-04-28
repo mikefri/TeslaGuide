@@ -1,39 +1,33 @@
-title: TeslaGuide
-description: Le guide Tesla en français — parrainage, modèles, conseils
-baseurl: "/TeslaGuide"
+# Informations globales
+title: "TeslaGuide — Le guide Tesla en français"
+description: "Guides, comparatifs et conseils pour acheter et utiliser une Tesla en France. Modèles, recharge, coûts, parrainage."
 url: "https://mikefri.github.io"
+baseurl: "/TeslaGuide"
 lang: fr
+author: "Michael"
 
-author: TeslaGuide
+# Paramètres SEO et réseaux sociaux (utilisés par jekyll-seo-tag)
+twitter:
+  username: "votre_pseudo"
+logo: "/assets/img/logo.png"
+
+# Paramètres personnalisés (accessibles via site.referral_link)
 referral_link: "https://ts.la/michael618693"
 
 # Build
 markdown: kramdown
 permalink: /:title/
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
+# Defaults
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-# Infos SEO globales
-title: "TeslaGuide — Le guide Tesla en français"
-description: "Guides, comparatifs et conseils pour acheter et utiliser une Tesla en France. Modèles, recharge, coûts, parrainage."
-url: "https://mikefri.github.io"
-baseurl: "/TeslaGuide"
-lang: fr
-author:
-  name: "Michael"
-twitter:
-  username: votre_pseudo  # si vous en avez un
-logo: /assets/img/logo.png
