@@ -3,7 +3,7 @@ layout: post
 title: "Comparatif Tesla 2024 : Model 3, Y, S et X — lequel choisir ?"
 date: 2024-01-15
 category: Modèles
-image: "{{ '/assets/images/photo-1617788138017-80ad40651399.jpg' | relative_url }}"
+image: "/assets/images/photo-1617788138017-80ad40651399.jpg"
 excerpt: "Model 3, Model Y, Model S ou Model X ? On compare les 4 modèles Tesla sur le prix, l'autonomie et les usages pour vous aider à choisir."
 ---
 
