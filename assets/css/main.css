@@ -347,7 +347,7 @@ body {
 .post-card-image {
   background-size: cover;
   background-position: center;
-  background-color: var(--surface);
+  background-color: #dde8f5;
   min-height: 240px;
 }
 
