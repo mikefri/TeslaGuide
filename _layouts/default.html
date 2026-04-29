@@ -6,9 +6,9 @@
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
 
   <!-- ── Favicon ── -->
-  <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/css/images/favicon-96x96.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/css/images/favicon-16x16.png' | relative_url }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/css/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="96x96"  href="{{ '/assets/css/images/favicon-96x96.png'  | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16"  href="{{ '/assets/css/images/favicon-16x16.png'  | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180"     href="{{ '/assets/css/images/apple-touch-icon.png' | relative_url }}">
 
   <!-- ── PWA ── -->
   <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
@@ -22,22 +22,22 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
   <!-- ── Open Graph ── -->
-  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type"        content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+  <meta property="og:title"       content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | truncate: 160 }}" />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:url"         content="{{ page.url | absolute_url }}" />
+  <meta property="og:site_name"   content="{{ site.title }}" />
+  <meta property="og:locale"      content="fr_FR" />
   {% if page.image %}
-  <meta property="og:image" content="{{ page.image | absolute_url }}" />
+  <meta property="og:image"       content="{{ page.image | absolute_url }}" />
   {% endif %}
 
   <!-- ── Twitter Card ── -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | truncate: 160 }}" />
   {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+  <meta name="twitter:image"       content="{{ page.image | absolute_url }}" />
   {% endif %}
 
   <!-- ── Fonts ── -->
@@ -48,16 +48,23 @@
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
+  <!-- ── Styles navbar / recherche ── -->
+  <style>
+    .navbar        { position: relative; }
+    mark           { background: rgba(0,113,227,.22); color: inherit; border-radius: 2px; padding: 0 2px; }
+    .search-empty  { color: var(--grey); font-size: 1rem; margin: 2rem 0; }
+  </style>
+
   <!-- ── JSON-LD ── -->
   {% if page.layout == 'post' %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "{{ page.title | escape }}",
-    "description": "{{ page.description | default: page.excerpt | strip_html | truncate: 160 | escape }}",
+    "headline":      "{{ page.title | escape }}",
+    "description":   "{{ page.description | default: page.excerpt | strip_html | truncate: 160 | escape }}",
     "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "dateModified":  "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
     "author": {
       "@type": "Person",
       "name": "{{ page.author | default: site.author }}"
@@ -65,7 +72,7 @@
     "publisher": {
       "@type": "Organization",
       "name": "TeslaGuide",
-      "url": "{{ site.url }}{{ site.baseurl }}"
+      "url":  "{{ site.url }}{{ site.baseurl }}"
     },
     "url": "{{ page.url | absolute_url }}"{% if page.image %},
     "image": "{{ page.image | absolute_url }}"{% endif %}
@@ -74,15 +81,15 @@
   {% else %}
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "TeslaGuide",
-    "url": "{{ site.url }}{{ site.baseurl }}",
-    "description": "{{ site.description | escape }}",
+    "@context":   "https://schema.org",
+    "@type":      "WebSite",
+    "name":       "TeslaGuide",
+    "url":        "{{ site.url }}{{ site.baseurl }}",
+    "description":"{{ site.description | escape }}",
     "inLanguage": "fr-FR",
     "potentialAction": {
-      "@type": "SearchAction",
-      "target": "{{ site.url }}{{ site.baseurl }}/blog?q={search_term_string}",
+      "@type":       "SearchAction",
+      "target":      "{{ site.url }}{{ site.baseurl }}/search/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -99,67 +106,70 @@
     }
   </script>
 </head>
+
 <body>
+
+  <!-- ════════════════════════════════
+       NAVBAR
+  ════════════════════════════════ -->
   <nav class="navbar">
-  <a href="{{ '/' | relative_url }}" class="nav-logo">TESLA<span>GUIDE</span></a>
-  <div class="nav-links">
-    <a href="{{ '/' | relative_url }}">Accueil</a>
-    <a href="{{ '/blog' | relative_url }}">Articles</a>
-    <a href="{{ '/' | relative_url }}#parrainage" class="nav-cta">Parrainage</a>
+    <a href="{{ '/' | relative_url }}" class="nav-logo">TESLA<span>GUIDE</span></a>
 
-    <!-- Search toggle -->
-    <button id="nav-search-btn" aria-label="Rechercher" style="
-      background:none; border:none; cursor:pointer; color:inherit;
-      padding: 4px 6px; display:flex; align-items:center;">
-      <svg width="18" height="18" viewBox="0 0 20 20" fill="none"
-           stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
-        <circle cx="8.5" cy="8.5" r="5.5"/>
-        <line x1="13" y1="13" x2="18" y2="18"/>
-      </svg>
-    </button>
-  </div>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}">Accueil</a>
+      <a href="{{ '/blog' | relative_url }}">Articles</a>
+      <a href="{{ '/' | relative_url }}#parrainage" class="nav-cta">Parrainage</a>
 
-  <!-- Expandable search bar -->
-  <div id="nav-search-box" style="
-    display:none; position:absolute; top:100%; left:0; right:0;
-    padding: 0.75rem 1.5rem; background: var(--bg, #0a0a0a);
-    border-bottom: 1px solid var(--grey);">
-    <form action="{{ '/search/' | relative_url }}" method="get"
-          style="display:flex; gap:0.5rem;" role="search">
-      <input name="q" id="nav-search-input" type="search"
-             placeholder="Rechercher un article…" autocomplete="off"
-             style="flex:1; padding:0.5rem 0.75rem; font-size:0.95rem;
-                    border:1px solid var(--grey); border-radius:6px;
-                    background:transparent; color:inherit;" />
-      <button type="submit" style="
-        padding:0.5rem 1rem; background:var(--accent,#0071e3);
-        color:#fff; border:none; border-radius:6px; cursor:pointer;
-        font-size:0.9rem;">OK</button>
-    </form>
-  </div>
-</nav>
-<style>
-  .navbar { position: relative; }
-  mark { background: rgba(0,113,227,.25); color: inherit; border-radius: 2px; padding: 0 2px; }
-  .search-empty { color: var(--grey); font-size: 1rem; margin: 2rem 0; }
-</style>
+      <!-- Bouton loupe -->
+      <button id="nav-search-btn" aria-label="Rechercher" style="
+          background: none; border: none; cursor: pointer; color: inherit;
+          padding: 4px 6px; display: flex; align-items: center;">
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none"
+             stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="8.5" cy="8.5" r="5.5"/>
+          <line x1="13" y1="13" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
 
-<script>
-  (function(){
-    const btn = document.getElementById('nav-search-btn');
-    const box = document.getElementById('nav-search-box');
-    const inp = document.getElementById('nav-search-input');
-    if (!btn) return;
-    btn.addEventListener('click', () => {
-      const open = box.style.display === 'block';
-      box.style.display = open ? 'none' : 'block';
-      if (!open) inp.focus();
-    });
-    document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') box.style.display = 'none';
-    });
-  })();
-</script>
+    <!-- Barre de recherche déroulante -->
+    <div id="nav-search-box" style="
+        display: none; position: absolute; top: 100%; left: 0; right: 0;
+        padding: 0.75rem 1.5rem;
+        background: var(--bg, #0a0a0a);
+        border-bottom: 1px solid var(--grey);">
+      <form action="{{ '/search/' | relative_url }}" method="get"
+            style="display: flex; gap: 0.5rem;" role="search">
+        <input
+          id="nav-search-input"
+          name="q"
+          type="search"
+          placeholder="Rechercher un article…"
+          autocomplete="off"
+          style="flex: 1; padding: 0.5rem 0.75rem; font-size: 0.95rem;
+                 border: 1px solid var(--grey); border-radius: 6px;
+                 background: transparent; color: inherit;" />
+        <button type="submit" style="
+            padding: 0.5rem 1rem;
+            background: var(--accent, #0071e3);
+            color: #fff; border: none; border-radius: 6px;
+            cursor: pointer; font-size: 0.9rem;">
+          OK
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════
+       CONTENU DE LA PAGE
+  ════════════════════════════════ -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- ════════════════════════════════
+       FOOTER
+  ════════════════════════════════ -->
   <footer class="footer">
     <div class="footer-inner">
       <p class="footer-logo">TESLA<span>GUIDE</span></p>
@@ -172,5 +182,35 @@
       <p class="footer-copy">© {{ 'now' | date: "%Y" }} TeslaGuide</p>
     </div>
   </footer>
+
+  <!-- ════════════════════════════════
+       SCRIPT NAVBAR / RECHERCHE
+  ════════════════════════════════ -->
+  <script>
+    (function () {
+      const btn = document.getElementById('nav-search-btn');
+      const box = document.getElementById('nav-search-box');
+      const inp = document.getElementById('nav-search-input');
+      if (!btn) return;
+
+      btn.addEventListener('click', function () {
+        const isOpen = box.style.display === 'block';
+        box.style.display = isOpen ? 'none' : 'block';
+        if (!isOpen) inp.focus();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') box.style.display = 'none';
+      });
+
+      /* Ferme la barre si clic en dehors */
+      document.addEventListener('click', function (e) {
+        if (!btn.contains(e.target) && !box.contains(e.target)) {
+          box.style.display = 'none';
+        }
+      });
+    })();
+  </script>
+
 </body>
 </html>
