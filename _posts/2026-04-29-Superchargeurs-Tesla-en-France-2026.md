@@ -63,7 +63,7 @@ Tesla applique une **tarification dynamique** selon l'affluence et l'emplacement
 
 | Profil | Tarif moyen au kWh |
 | :--- | :--- |
-| **Propriétaire Tesla** | 0,39 € – 0,45 € |
+| **Propriétaire Tesla** | 0,29 € – 0,45 € |
 | **Non-Tesla (sans abo)** | 0,49 € – 0,59 € |
 | **Non-Tesla (avec abo)** | Identique Tesla |
 | **Recharge domicile (HC)** | ~0,16 € |
