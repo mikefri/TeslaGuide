@@ -774,3 +774,15 @@ body {
   border-color: #fff;
   color: #000;
 }
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.pagination-info {
+  font-size: 0.85rem;
+  color: var(--grey);
+}
