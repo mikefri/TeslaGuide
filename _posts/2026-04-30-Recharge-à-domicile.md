@@ -6,7 +6,7 @@ permalink: /Recharge-a-domicile/
 date: 2026-05-01
 category: "Recharge"
 author: "Michael"
-image: /assets/img/recharge-domicile.jpg
+image: /assets/img/recharge-domicile.webp
 ---
 
 Depuis que j'ai troqué mon véhicule thermique pour une Tesla, ma routine a radicalement changé. Il n'y a rien de plus satisfaisant que de se réveiller chaque matin avec une batterie pleine sans avoir jamais mis les pieds dans une station-service. 
