@@ -2,15 +2,36 @@
 layout: default
 title: Articles — TeslaGuide
 ---
+
 <div class="blog-header">
   <p class="section-eyebrow">Base de connaissance</p>
   <h1 class="section-title">Tous les articles</h1>
   <p class="section-sub" style="margin: 0 auto;">Guides, comparatifs et explications sur l'univers Tesla.</p>
 </div>
+
+<!-- ── Filtres catégories ── -->
+<div class="filter-bar" role="group" aria-label="Filtrer par catégorie">
+  <button class="filter-btn active" data-filter="all">Tous</button>
+  <button class="filter-btn" data-filter="Recharge">Recharge</button>
+  <button class="filter-btn" data-filter="Logiciel">Logiciel</button>
+  <button class="filter-btn" data-filter="Entretien">Entretien</button>
+  <button class="filter-btn" data-filter="Conseils d'achat">Conseils d'achat</button>
+  <button class="filter-btn" data-filter="Guide">Guide</button>
+</div>
+
+<!-- ── Compteur ── -->
+<p class="filter-count">
+  <span id="results-count">{{ paginator.posts | size }}</span> article{% if paginator.posts.size > 1 %}s{% endif %}
+</p>
+
 <div class="blog-list">
-  <div class="posts-grid">
+
+  <!-- ── Grille articles ── -->
+  <div class="posts-grid" id="posts-grid">
     {% for post in paginator.posts %}
-    <a href="{{ post.url | relative_url }}" class="post-card">
+    <a href="{{ post.url | relative_url }}"
+       class="post-card"
+       data-category="{{ post.category | default: 'Guide' }}">
       <div class="post-card-content">
         <span class="post-tag">{{ post.category | default: "Guide" }}</span>
         <h2 class="post-title">{{ post.title }}</h2>
@@ -19,22 +40,35 @@ title: Articles — TeslaGuide
         <span class="post-arrow">Lire →</span>
       </div>
       {% if post.image %}
-      <div class="post-card-image" style="background-image: url('{{ post.image | relative_url }}')"></div>
+      <div class="post-card-image"
+           style="background-image: url('{{ post.image | relative_url }}')"></div>
       {% else %}
       <div class="post-card-image post-card-image--empty"></div>
       {% endif %}
     </a>
     {% endfor %}
   </div>
+
+  <!-- ── État vide (filtre sans résultats) ── -->
+  <div id="no-results" style="display: none; text-align: center; padding: 4rem 0;">
+    <p style="font-size: 1.1rem; color: var(--grey);">
+      Aucun article dans cette catégorie pour l'instant.
+    </p>
+  </div>
+
+  <!-- ── Pagination ── -->
   {% if paginator.total_pages > 1 %}
-  <div class="pagination" style="margin-top: 3rem; text-align: center;">
+  <div class="pagination" id="pagination">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}" class="btn-secondary">← Précédent</a>
     {% endif %}
-    <span style="margin: 0 15px;">Page {{ paginator.page }} sur {{ paginator.total_pages }}</span>
+    <span class="pagination-info">
+      Page {{ paginator.page }} sur {{ paginator.total_pages }}
+    </span>
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" class="btn-secondary">Suivant →</a>
     {% endif %}
   </div>
   {% endif %}
+
 </div>
