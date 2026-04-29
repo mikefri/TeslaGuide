@@ -81,7 +81,7 @@ Tesla applique une **tarification dynamique** selon l'affluence et l'emplacement
 ---
 
 ### Pour aller plus loin
-* [Comparatif Tesla 2026]({{ site.baseurl }}/comparatif-modeles-tesla/) : Model 3, Y, S ou X — lequel choisir ?
+* [Recharge Tesla : guide pratique]({{ site.baseurl }}/recharge-tesla/) : Optimisez vos temps de pause.
 * [Motorisations Tesla expliquées]({{ site.baseurl }}/motorisations-tesla/) : RWD, AWD, Plaid — décryptés.
 * [Lexique Tesla]({{ site.baseurl }}/lexique-tesla/) : Comprendre le jargon de la marque.
 
