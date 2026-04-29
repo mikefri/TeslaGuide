@@ -738,3 +738,39 @@ body {
 .footer-social svg {
   fill: currentColor;
 }
+
+/* ── Partage X ── */
+.article-share {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--grey);
+  flex-wrap: wrap;
+}
+
+.article-share-label {
+  font-size: 0.85rem;
+  color: var(--grey);
+  margin: 0;
+}
+
+.share-btn-x {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--grey);
+  border-radius: 100px;
+  font-size: 0.85rem;
+  color: inherit;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.share-btn-x:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}
