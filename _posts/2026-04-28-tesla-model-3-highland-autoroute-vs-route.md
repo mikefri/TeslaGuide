@@ -6,7 +6,7 @@ permalink: /model-3-highland-propulsion/
 date: 2026-04-28
 category: Expérience Tesla
 author: Michael
-image: "/assets/css/images/photo-1617788138017-80ad40651399.webp"
+image: "/assets/css/images/autoroutevsroute.webp"
 excerpt: "Entre silence sur autoroute et agilité sur route secondaire, la Model 3 Highland Propulsion offre deux visages. Analyse réelle de son comportement et de sa consommation pour vos trajets de 2026."
 ---
 
