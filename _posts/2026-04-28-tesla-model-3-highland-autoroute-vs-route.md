@@ -4,7 +4,7 @@ title: "Tesla Model 3 Highland Propulsion : Autoroute vs Route, quel comportemen
 description: "Propriétaire d'une Tesla Model 3 Highland Propulsion ? Découvrez comment votre berline se comporte sur autoroute et sur route secondaire, et comment optimiser vos trajets au quotidien."
 permalink: /model-3-highland-propulsion/
 date: 2026-04-28
-category: Expérience Tesla
+category: Guide
 author: Michael
 image: "/assets/css/images/autoroutevsroute.webp"
 excerpt: "Entre silence sur autoroute et agilité sur route secondaire, la Model 3 Highland Propulsion offre deux visages. Analyse réelle de son comportement et de sa consommation pour vos trajets de 2026."
