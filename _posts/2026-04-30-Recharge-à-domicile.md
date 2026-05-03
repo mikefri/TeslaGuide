@@ -13,6 +13,9 @@ Depuis que j'ai troqué mon véhicule thermique pour une Tesla, ma routine a rad
 
 Cependant, j'ai moi-même dû me poser les bonnes questions sur la recharge : les normes de sécurité, les puissances adaptées et les bons réflexes. Voici mon retour d'expérience et mes conseils pour bien choisir votre installation.
 
+![Tesla branchée en recharge à domicile la nuit]({{ site.url }}{{ site.baseurl }}/assets/css/images/IMAGE-5.webp)
+*Chaque matin, une batterie pleine — sans jamais passer à la station-service.*
+
 ## Les 3 options pour recharger chez vous
 
 ### 1. La prise domestique classique (Mode 2)
@@ -28,6 +31,9 @@ C'est le compromis idéal pour beaucoup, et c'est ce que j'ai installé chez moi
 * **Puissance :** 3,2 kW.
 * **Vitesse :** ~20 km d'autonomie par heure de charge.
 * **Mon installation :** J'ai mis en place une prise renforcée avec un disjoncteur dédié de 32A. Je programme ma charge en heures creuses, de 2h à 6h du matin. Avec 4 heures de charge, je récupère environ 10% de batterie par nuit. Pour mon usage quotidien, c'est largement suffisant, simple et efficace.
+
+![Prise renforcée Green'up pour recharge Tesla]({{ site.url }}{{ site.baseurl }}/assets/css/images/IMAGE-6.webp)
+*La prise Green'up : simple, économique et suffisante pour un usage quotidien modéré.*
 
 ### 3. La Wallbox (Mode 3) — La recommandation standard
 Si vous roulez beaucoup ou si vous souhaitez une recharge plus rapide et intelligente, la Wallbox est la solution la plus fiable.
@@ -45,6 +51,9 @@ Si vous roulez beaucoup ou si vous souhaitez une recharge plus rapide et intelli
 | **Wallbox Pulsar Plus** | 7,4 à 22 kW | ~700 € |
 | **Schneider EVlink** | 7,4 kW | ~550 € |
 
+
+*Le Tesla Wall Connector : la solution maison la plus rapide et la plus élégante.*
+
 ## L'installation électrique : les points de vigilance
 
 Voici ce qu'il faut vérifier avant de vous lancer :
@@ -55,8 +64,6 @@ Voici ce qu'il faut vérifier avant de vous lancer :
     * *Conseil :* Pour une Wallbox, il est vivement recommandé de faire appel à un installateur certifié **IRVE** (Infrastructure de Recharge pour Véhicule Électrique). C'est indispensable pour la sécurité de votre domicile et pour vos assurances.
 
 * **La mise à la terre :** Ne négligez jamais cet aspect. Si votre logement est ancien, une mise à la terre conforme est indispensable avant toute installation.
-
-
 
 ## Mes derniers conseils pour optimiser votre usage
 
