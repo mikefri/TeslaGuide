@@ -56,13 +56,7 @@ Voici ce qu'il faut vérifier avant de vous lancer :
 
 * **La mise à la terre :** Ne négligez jamais cet aspect. Si votre logement est ancien, une mise à la terre conforme est indispensable avant toute installation.
 
-## Aides financières en 2026 : ne passez pas à côté
 
-Le coût de l'installation peut être amorti grâce à plusieurs dispositifs :
-
-1. **Crédit d'impôt :** 75% du coût d'achat et d'installation, plafonné à 300 € par système.
-2. **Prime CEE :** Vérifiez auprès de votre fournisseur d'électricité, ils proposent souvent des aides cumulables.
-3. **Aide employeur :** De plus en plus d'entreprises financent jusqu'à 50% de l'installation au domicile de leurs salariés.
 
 ## Mes derniers conseils pour optimiser votre usage
 
