@@ -25,7 +25,7 @@ Depuis décembre 2024, je n'ai pas mis les pieds chez un garagiste pour une rév
 
 ## Ce que j'ai quand même dû prévoir
 
-![Entretien Tesla Model 3 Highland : les vrais postes de dépenses]({{ site.url }}{{ site.baseurl }}/assets/css/images/IMAGE-1.webp)
+![Entretien Tesla Model 3 Highland : les vrais postes de dépenses]({{ site.url }}{{ site.baseurl }}/assets/css/images/pneus.webp)
 *18 mois et 32 000 km — voici ce que ça a réellement coûté.*
 
 ### Les pneus : le poste à surveiller dès le départ
@@ -64,7 +64,7 @@ Soit environ **300 à 400 € par an** en rythme de croisière. À titre de comp
 
 ## La batterie de ma Model 3 Highland : ce que j'observe
 
-![Batterie Tesla Model 3 Highland après 32 000 km]({{ site.url }}{{ site.baseurl }}/assets/css/images/IMAGE-2.webp)
+![Batterie Tesla Model 3 Highland après 32 000 km]({{ site.url }}{{ site.baseurl }}/assets/css/images/batterie.webp)
 *Après 32 000 km, la batterie se comporte exactement comme prévu.*
 
 La Model 3 Highland Propulsion est équipée d'une **batterie LFP (Lithium Fer Phosphate)** — c'est une excellente nouvelle pour la longévité. Cette chimie est réputée pour sa résistance à la dégradation et accepte d'être chargée à 100% régulièrement, contrairement aux batteries NMC des versions Grande Autonomie.
