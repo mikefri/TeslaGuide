@@ -97,8 +97,7 @@ Tesla ne figure pas dans le catalogue. Ce dispositif cible des véhicules aborda
 | Model Y Propulsion (Berlin) | ✅ | ✅ en config de base | ✅ Éligible |
 | Model Y Grande Autonomie (Berlin) | ✅ | ⚠️ Selon options | ⚠️ À vérifier |
 | Model Y Performance | ✅ | ❌ | ❌ |
-| Model S / Model X | — | ❌ | ❌ |
-| Cybertruck | — | ❌ | ❌ |
+
 
 La Model Y Berlin reste le modèle Tesla le mieux placé pour bénéficier des aides en 2026 — et davantage de versions que prévu passent le filtre ADEME. Tout se joue sur le prix final configuré. Si vous hésitez encore sur la version à choisir, notre [comparatif des modèles Tesla](/comparatif-modeles-tesla/) peut vous aider à trancher.
 
