@@ -32,7 +32,7 @@ Le montant dépend de votre **revenu fiscal de référence (RFR) par part**, que
 | Ménages modestes | 16 301 € à 26 300 € | **4 700 €** | 4 200 € |
 | Autres ménages | > 26 300 € | **3 500 €** | 3 100 € |
 
-![Illustration bonus écologique 2026 - aide financière véhicule électrique](/assets/css/images/IMAGE-1.webp)
+![Illustration bonus écologique 2026 - aide financière véhicule électrique]({{ site.url }}{{ site.baseurl }}/assets/css/images/IMAGE-1.webp)
 *Les montants ont été revalorisés en 2026 par rapport à l'année précédente.*
 
 ### Le surbonus batterie européenne
@@ -63,7 +63,7 @@ Produite à la **Gigafactory de Shanghai**, la Model 3 ne passe pas le seuil de 
 
 C'est la bonne surprise. La Model Y est produite à la **Gigafactory Berlin** : elle obtient un score ADEME suffisant, et contrairement à ce que beaucoup pensent, **ce n'est pas uniquement la Propulsion qui passe le filtre**. L'ADEME liste comme éligibles plusieurs variantes Grande Autonomie (LR RWD), dont le Nouveau Model Y Grande Autonomie Propulsion.
 
-![Tesla Model Y Gigafactory Berlin](/assets/css/images/IMAGE-2.webp)
+![Tesla Model Y Gigafactory Berlin]({{ site.url }}{{ site.baseurl }}/assets/css/images/IMAGE-2.webp)
 *La Model Y produite à Berlin est la seule Tesla réellement dans la course pour le bonus 2026.*
 
 **Le vrai point de bascule, c'est le prix.** Avec le seuil fixé à 47 000 € TTC, tout se joue à quelques centaines d'euros près selon la configuration choisie :
@@ -78,7 +78,7 @@ C'est la bonne surprise. La Model Y est produite à la **Gigafactory Berlin** : 
 
 ## Le leasing social 2026 : Tesla absent du catalogue
 
-![Illustration leasing social juillet 2026](/assets/css/images/IMAGE-3.webp)
+![Illustration leasing social juillet 2026]({{ site.url }}{{ site.baseurl }}/assets/css/images/IMAGE-3.webp)
 *Le leasing social revient en juillet 2026 — mais sans Tesla dans le catalogue.*
 
 Le leasing social revient en **juillet 2026** avec 100 000 véhicules — 50 000 pour les particuliers modestes, 50 000 pour les professionnels gros rouleurs (infirmières, artisans, aides à domicile). Le reste à charge visé : **100 à 200 € par mois**, sans apport.
