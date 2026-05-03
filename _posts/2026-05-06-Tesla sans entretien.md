@@ -6,7 +6,7 @@ permalink: /entretien-tesla-cout-reel/
 date: 2026-05-06
 category: "Ownership"
 author: "Michael"
-image: /assets/css/images/entretien-tesla-3-ans.webp
+image: /assets/css/images/entretien-tesla.webp
 ---
 
 "Une Tesla, ça ne s'entretient pas." C'est l'argument qui m'a, je l'avoue, bien aidé à franchir le pas en décembre 2024 pour ma Model 3 Highland. 18 mois et 32 000 km plus tard, je peux vous donner un bilan concret. La promesse est globalement tenue — mais il y a des nuances que j'aurais aimé connaître avant.
