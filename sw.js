@@ -1,8 +1,8 @@
-const CACHE = 'teslaguide-v1';
+const CACHE = 'TeslaGenie-v1';
 const PRECACHE = [
-  '/TeslaGuide/',
-  '/TeslaGuide/blog/',
-  '/TeslaGuide/assets/css/main.css',
+  '/TeslaGenie/',
+  '/TeslaGenie/blog/',
+  '/TeslaGenie/assets/css/main.css',
 ];
 
 self.addEventListener('install', e => {
@@ -39,7 +39,7 @@ self.addEventListener('fetch', event => {
         // On clone AVANT de consommer le body
         const responseToCache = response.clone();
 
-        caches.open('teslaguide-v1').then(cache => {
+        caches.open('TeslaGenie-v1').then(cache => {
           cache.put(event.request, responseToCache);
         });
 
