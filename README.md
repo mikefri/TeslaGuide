@@ -2,7 +2,7 @@
 
 > Un site indépendant, non affilié à Tesla Inc., dédié aux futurs et actuels propriétaires de Tesla en France.
 
-🌐 **Site en ligne** : [mikefri.github.io/TeslaGuide](https://mikefri.github.io/TeslaGenie/)
+🌐 **Site en ligne** : [mikefri.github.io/TeslaGenie](https://mikefri.github.io/TeslaGenie/)
 
 ---
 
