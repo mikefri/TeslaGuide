@@ -34,7 +34,7 @@ permalink: /contact/
     font-family: 'Barlow', sans-serif;
     font-size: 1.05rem;
     font-weight: 300;
-    color: var(--grey, #888);
+    color: #666;
     max-width: 500px;
     line-height: 1.7;
   }
@@ -62,24 +62,24 @@ permalink: /contact/
     top: 6rem;
   }
   .contact-info-item {
-    border-left: 1px solid rgba(255,255,255,0.1);
+    border-left: 2px solid rgba(0,0,0,0.1);
     padding-left: 1.2rem;
   }
   .contact-info-label {
     font-size: 0.68rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--grey, #888);
+    color: #999;
     margin-bottom: 0.4rem;
   }
   .contact-info-value {
     font-family: 'Barlow', sans-serif;
     font-size: 0.95rem;
-    color: #fff;
+    color: #111;
     line-height: 1.5;
   }
   .contact-info-value a {
-    color: #fff;
+    color: #111;
     text-decoration: none;
     transition: color 0.2s;
   }
@@ -90,26 +90,27 @@ permalink: /contact/
     align-items: center;
     gap: 0.6rem;
     padding: 0.7rem 1.3rem;
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(0,0,0,0.15);
     border-radius: 100px;
     font-family: 'Barlow', sans-serif;
     font-size: 0.88rem;
     font-weight: 500;
-    color: #fff;
+    color: #111;
     text-decoration: none;
     transition: background 0.2s, border-color 0.2s;
     margin-top: 0.5rem;
     width: fit-content;
   }
   .contact-x-btn:hover {
-    background: rgba(255,255,255,0.06);
-    border-color: rgba(255,255,255,0.35);
+    background: rgba(0,0,0,0.05);
+    border-color: rgba(0,0,0,0.35);
+    color: #000;
   }
 
   /* ── Formulaire ── */
   .contact-form-wrap {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.08);
+    background: #f8f8f8;
+    border: 1px solid rgba(0,0,0,0.08);
     border-radius: 16px;
     padding: 2.5rem;
   }
@@ -130,40 +131,41 @@ permalink: /contact/
     font-size: 0.72rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: var(--grey, #888);
+    color: #666;
   }
   .form-input,
   .form-select,
   .form-textarea {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
     border-radius: 8px;
     padding: 0.75rem 1rem;
     font-family: 'Barlow', sans-serif;
     font-size: 0.95rem;
-    color: #fff;
-    transition: border-color 0.2s, background 0.2s;
+    color: #111;
+    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
     outline: none;
     width: 100%;
     box-sizing: border-box;
     -webkit-appearance: none;
   }
   .form-input::placeholder,
-  .form-textarea::placeholder { color: rgba(255,255,255,0.2); }
+  .form-textarea::placeholder { color: #bbb; }
   .form-input:focus,
   .form-select:focus,
   .form-textarea:focus {
     border-color: var(--accent, #0071e3);
-    background: rgba(0,113,227,0.06);
+    box-shadow: 0 0 0 3px rgba(0,113,227,0.1);
   }
   .form-select {
     cursor: pointer;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23888' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23555' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 1rem center;
     padding-right: 2.5rem;
+    background-color: #fff;
   }
-  .form-select option { background: #111; color: #fff; }
+  .form-select option { background: #fff; color: #111; }
   .form-textarea { resize: vertical; min-height: 130px; }
 
   .form-submit {
@@ -216,7 +218,7 @@ permalink: /contact/
   /* ── Divider ── */
   .contact-divider {
     border: none;
-    border-top: 1px solid rgba(255,255,255,0.07);
+    border-top: 1px solid rgba(0,0,0,0.08);
     max-width: 1100px;
     margin: 0 auto 4rem;
   }
