@@ -77,7 +77,7 @@ Les habitudes que j'applique au quotidien :
 * **100% uniquement la veille d'un long trajet** sur autoroute.
 * **Préchauffage de la batterie** avant d'arriver à un Superchargeur en hiver pour optimiser la vitesse de charge.
 
-J'en parle en détail dans mon article sur la [recharge à domicile](/Recharge-a-domicile/).
+J'en parle en détail dans mon article sur la [recharge à domicile]({{ site.baseurl }}/motorisations-tesla/).
 
 
 
